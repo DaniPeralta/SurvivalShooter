@@ -57,9 +57,9 @@ GameObject:
   - component: {fileID: 195411731687307486}
   - component: {fileID: 135611466332073962}
   - component: {fileID: 136219312002474532}
-  - component: {fileID: 114551866340156458}
-  - component: {fileID: 114067649699303416}
-  - component: {fileID: 114520192166382768}
+  - component: {fileID: 114206686372773934}
+  - component: {fileID: 114066965590751518}
+  - component: {fileID: 114061176795036418}
   m_Layer: 9
   m_Name: Hellephant
   m_TagString: Untagged
@@ -348,7 +348,7 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &114067649699303416
+--- !u!114 &114061176795036418
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -356,7 +356,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1385391248471086}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa10cc87aff30c04dbe0aa648f5b6adc, type: 3}
+  m_Script: {fileID: 11500000, guid: a9b9d14572410594cb85d40eedfb150c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 100
@@ -364,7 +364,7 @@ MonoBehaviour:
   sinkSpeed: 2.5
   scoreValue: 10
   deathClip: {fileID: 8300000, guid: 8c615fd0429f34edf85539d70279360d, type: 3}
---- !u!114 &114520192166382768
+--- !u!114 &114066965590751518
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -372,10 +372,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1385391248471086}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ea9a6ed18654d14db02bf0076cfe488, type: 3}
+  m_Script: {fileID: 11500000, guid: 94f6618a0da65fa45b24d5105d5d8422, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114551866340156458
+--- !u!114 &114206686372773934
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -383,7 +383,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1385391248471086}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc28e8f7dbbe7494a8d67b6f5f3636bc, type: 3}
+  m_Script: {fileID: 11500000, guid: e15099f5ee559584089d5851df572def, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.5
